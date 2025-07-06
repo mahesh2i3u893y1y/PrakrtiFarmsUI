@@ -40,12 +40,12 @@ const Section2 = () => {
             <img
               src={animals}
               alt="Cow"
-              className="w-[33%] sm:h-40 md:h-48 lg:h-56  object-cover rounded-md animate-slide-left"
+              className="w-[45%] sm:h-40 md:h-48 lg:h-56  object-cover rounded-md animate-slide-left"
             />
             <img
               src={feed}
               alt="Feed"
-              className="w-[33%] sm:h-40 md:h-48 lg:h-50 lg:mt-5 lg:mr-3 object-cover rounded-md animate-slide-right"
+              className="w-[45%] sm:h-40 md:h-48 lg:h-50 lg:mt-5 lg:mr-3 object-cover rounded-md animate-slide-right"
             />
           </div>
 
@@ -54,12 +54,12 @@ const Section2 = () => {
             <img
               src={testing}
               alt="Testing"
-              className="w-[33%] sm:h-40 md:h-48 lg:h-56 lg:ml-10 object-cover rounded-md animate-slide-up"
+              className="w-[45%] sm:h-40 md:h-48 lg:h-56 lg:ml-10 object-cover rounded-md animate-slide-up"
             />
             <img
               src={delivery}
               alt="Delivery"
-              className="w-[33%] sm:h-40 md:h-48 lg:h-70 lg:w-65 lg:mr-3 object-cover rounded-md animate-slide-down"
+              className="w-[45%] sm:h-40 md:h-48 lg:h-70 lg:w-63 lg:mr-3 object-cover rounded-md animate-slide-down"
             />
           </div>
         </div>
