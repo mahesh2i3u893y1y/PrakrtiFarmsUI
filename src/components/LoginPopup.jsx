@@ -42,7 +42,7 @@ const LoginPopup = ({ onClose }) => {
 
   return (
     <div className="fixed inset-0 p-5 z-[60]  pt-[30%] md:pt-0 flex items-start md:items-center justify-center bg-black/50 bg-opacity-50 font-poppins">
-      <div className="bg-white py-10 p-6 rounded-xl shadow-lg w-100 relative">
+      <div className="bg-white py-10 w-[90%] sm:[80%] md:w-[450px] p-6 rounded-xl shadow-lg  relative">
         {/* Close Button */}
         <button
           className="absolute top-3 right-3 cursor-pointer text-gray-500 hover:text-red-500"
