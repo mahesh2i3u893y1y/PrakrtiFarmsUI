@@ -41,7 +41,7 @@ const LoginPopup = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/50 bg-opacity-50 font-poppins">
+    <div className="fixed inset-0 p-5 z-[60]  pt-[30%] md:pt-0 flex items-start md:items-center justify-center bg-black/50 bg-opacity-50 font-poppins">
       <div className="bg-white py-10 p-6 rounded-xl shadow-lg w-100 relative">
         {/* Close Button */}
         <button

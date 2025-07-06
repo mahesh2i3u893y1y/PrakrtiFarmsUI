@@ -33,19 +33,19 @@ const Section2 = () => {
       </div>
 
       {/* Right Content */}
-      <div className="w-full lg:w-1/2 p-4 md:p-6">
-        <div className="flex flex-col gap-3">
+      <div className="w-full lg:w-1/2 p-4 mt:p-6">
+        <div className="flex w-full flex-col gap-3">
           {/* Top Row */}
-          <div className="flex gap-3 flex-wrap justify-between">
+          <div className="flex w-full gap-3 flex-wrap justify-between">
             <img
               src={animals}
               alt="Cow"
-              className="w-[48%] sm:h-40 md:h-48 lg:h-56  object-cover rounded-md animate-slide-left"
+              className="w-[33%] sm:h-40 md:h-48 lg:h-56  object-cover rounded-md animate-slide-left"
             />
             <img
               src={feed}
               alt="Feed"
-              className="w-[48%] sm:h-40 md:h-48 lg:h-50 lg:mt-5 lg:mr-3 object-cover rounded-md animate-slide-right"
+              className="w-[33%] sm:h-40 md:h-48 lg:h-50 lg:mt-5 lg:mr-3 object-cover rounded-md animate-slide-right"
             />
           </div>
 
@@ -54,12 +54,12 @@ const Section2 = () => {
             <img
               src={testing}
               alt="Testing"
-              className="w-[48%] sm:h-40 md:h-48 lg:h-56 lg:ml-10 object-cover rounded-md animate-slide-up"
+              className="w-[33%] sm:h-40 md:h-48 lg:h-56 lg:ml-10 object-cover rounded-md animate-slide-up"
             />
             <img
               src={delivery}
               alt="Delivery"
-              className="w-[48%] sm:h-40 md:h-48 lg:h-70 lg:w-65 lg:mr-3 object-cover rounded-md animate-slide-down"
+              className="w-[33%] sm:h-40 md:h-48 lg:h-70 lg:w-65 lg:mr-3 object-cover rounded-md animate-slide-down"
             />
           </div>
         </div>
